@@ -23,13 +23,14 @@ This SRFI is currently in ``withdrawn'' status. To see an explanation of
 each status that a SRFI can hold, see <a
 href="http://srfi.schemers.org/srfi-process.html">here</a>.
 You can access the discussion
-via <a
-href="http://srfi.schemers.org/srfi-20/mail-archive/maillist.html">
+via <a href="https://srfi-email.schemers.org/srfi-20">
 the archive of the mailing list</a>.
 <P>
 <UL>
 <LI>Draft: 2000/04/16-2000/06/15 </LI>
 <LI>Withdrawn: 2001/04/29
+<LI>Revised to fix errata:
+  <ul><li>2019/10/25 (Fix broken links.)</LI></UL></LI>
 </UL>
 
 <H1>Abstract</H1>
@@ -37,7 +38,7 @@ the archive of the mailing list</a>.
 This SRFI presents an object system to define classes, generic functions
 as well as to support some level of introspection. This object system
 is based on Meroon-V3 which is itself inspired by CLOS. <a
-href="http://www-spi.lip6.fr/~queinnec/WWW/Meroon.html"> Meroon-V3</a>
+href="http://pages.lip6.fr/Christian.Queinnec/WWW/Meroon.html">Meroon-V3</a>
 is distributed and used since 1992.
 
 <H1>Issues</H1>
@@ -51,7 +52,7 @@ generic functions are hard to type). This model has good compilation
 properties since most types are known at compile-time.
 <p>
 The open model is more dynamic (CLOS, <a
-href="http://www-spi.lip6.fr/~queinnec/WWW/Meroon.html">
+href="http://pages.lip6.fr/Christian.Queinnec/WWW/Meroon.html">
 Meroon-V3</a>, <a href="http://kaolin.unice.fr/STk/"> STklos</a>). It
 acknowledges the fact that all behaviors cannot be expressed at
 class-definition time, that it should be possible to add new behaviors
@@ -84,7 +85,7 @@ Java took).
 
 <H1>Specification</H1>
 
-The <a href="http://www-spi.lip6.fr/~queinnec/Reports/MeroonV3.ps.gz">
+The <a href="https://pages.lip6.fr/Christian.Queinnec/Reports/MeroonV3.ps.gz">
 documentation of Meroon-V3</a> (23 pages) is available on the net.
 The following interface stresses the features that are within the
 scope of the present document.
@@ -328,10 +329,10 @@ Two generic functions are predefined:
 
 <H1>Implementation</H1>
 
-<A HREF="http://www-spi.lip6.fr/~queinnec/Programs/MeroonV3-98Feb09.tar.gz">
+<A HREF="https://pages.lip6.fr/Christian.Queinnec/Programs/MeroonV3-98Feb09.tar.gz">
 Meroon-V3</a> implements the features of this document (and much more
 than this in fact) but is currently 10k lines long. <A
-HREF="http://www-spi.lip6.fr/~queinnec/Programs/meroonet93Mar19.tar.gz">
+HREF="https://pages.lip6.fr/Christian.Queinnec/Programs/meroonet93Mar19.tar.gz">
 Meroonet</a> is another almost conforming essential implementation
 (but for multi-methods) whose size makes it more readable (875 lines
 including comments) described in chapter 11 of my book: Lisp in Small
