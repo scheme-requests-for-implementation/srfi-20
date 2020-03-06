@@ -2,6 +2,8 @@
 
 ** by Christian Queinnec
 
+
+
 This repository hosts [[https://srfi.schemers.org/srfi-20/][SRFI 20]]: Simple object system, a [[https://srfi.schemers.org/][Scheme Request for Implementation]].
 
 This SRFI is in /withdrawn/ status.
